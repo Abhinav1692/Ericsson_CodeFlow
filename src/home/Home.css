@@ -1,0 +1,43 @@
+/* Home.css */
+
+/* Style the overall container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Style the NavBar */
+  /* Add your NavBar styles here */
+  
+  /* Style the content container (contains Sidebar, Content, and TrendingPrompts) */
+  .content-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Style the Sidebar */
+  /* Sidebar styles */
+  .sidebar {
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* Content styles */
+  .content {
+    width: 65%;
+    overflow: auto;
+    padding: 15px;
+    margin-left: 25%;
+  }
+  
+  /* Trending styles */
+  .trending {
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    background-color: #f1f1f1;
+  }
