@@ -3,40 +3,55 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: 	#006600;
-    color: #fff;
   }
   
   /* .navbar-logo img {
     width: 200px;
   } */
   
-  .navbar-menu {
-    list-style: none;
+  .header-left {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+  align-items: center;
+}
+.header-left img{
+  margin-right: 10px;
+}
+.header-left h4{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+  .header-left > h4:hover {
+  background-color: #ddd;
+  border: 35px;
+}
+.navbar-search{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.navbar-search input{
+  width: 600px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  outline: none;
+}
+
+  .signin{
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
   }
-  
-  .navbar-item {
-    margin: 0 10px;
-  }
-  
-  .navbar-item a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .navbar-search input {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    width: 1000px;
-  }
-  
 
   .logIn {
-    padding: 6px 2px;
+    padding: 5px 8px;
     background-color: grey;
     color: #fff;
     border: none;
@@ -45,10 +60,13 @@
   }
 
   .signUp {
-    padding: 6px 2px;
+    padding: 5px;
+    padding-left: 6px;
+    padding-right: 9px;
     background-color: #0077cc;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 10px;
   }

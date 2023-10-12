@@ -7,18 +7,46 @@ import "./Home.css";
 
 function Home() {
     return (
-        <div className="home-container">
-            <NavBar />
-            <div className="sidebar"> {/* Use class name "sidebar" */}
-                <SideBar />
-            </div>
-            <div className="content"> {/* Use class name "content" */}
-                <Content />
-            </div>
-            <div className="trending"> {/* Use class name "trending" */}
-                <Trending />
-            </div>
+
+    <div className="home-container">
+
+      <NavBar />
+
+      <div className="content-container">
+
+        <div className="sidebar">
+
+          {" "}
+
+          {/* Use class name "sidebar" */}
+
+          <SideBar />
+
         </div>
+
+        <div className="content">
+
+          {" "}
+
+          {/* Use class name "content" */}
+
+          <Content />
+
+        </div>
+
+        <div className="trending">
+
+          {" "}
+
+          {/* Use class name "trending" */}
+
+          <Trending />
+
+        </div>
+
+      </div>
+
+    </div>
     );
 }
 
