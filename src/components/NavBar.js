@@ -5,32 +5,25 @@ import "./style/NavBar.css"
 function NavBar() {
   return (
     <div className="navbar">
-      <div className="navbar-logo">
+      <div className="header-left">
         <img src="ericsson_codeFlow.png" alt="Stack Overflow Logo" width="50px" height="50px"/>
+        <h4>Questions</h4>
+        <h4>Trending</h4>
+        <h4>About</h4>
       </div>
-      <ul className="navbar-menu">
-        <li className="navbar-item">
-          <a href="/questions">Questions</a>
-        </li>
-        <li className="navbar-item">
-          <a href="/tags">Tags</a>
-        </li>
-        <li className="navbar-item">
-          <a href="/trending">Trending</a>
-        </li>
-        <li className="navbar-item">
-          <a href="/about">About</a>
-        </li>
-      </ul>
+
       <div className="navbar-search">
         <input type="text" placeholder="Search..." />
       </div>
+
+      <div className="signin">
       <div className="logIn">
         <button className="logIn">Login</button>
       </div>
       
       <div className="signUp">
-        <button className="signUp">signUp</button>
+        <button className="signUp">SignUp</button>
+      </div>
       </div>
     </div>
   );
